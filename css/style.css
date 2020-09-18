@@ -1,0 +1,769 @@
+/* titillium-web-300 - latin */
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../fonts/titillium-web-v9-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Light'), local('TitilliumWeb-Light'),
+         url('../fonts/titillium-web-v9-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-300.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-300italic - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../fonts/titillium-web-v9-latin-300italic.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Light Italic'), local('TitilliumWeb-LightItalic'),
+         url('../fonts/titillium-web-v9-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-300italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-300italic.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-italic - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/titillium-web-v9-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Italic'), local('TitilliumWeb-Italic'),
+         url('../fonts/titillium-web-v9-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-italic.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-600 - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../fonts/titillium-web-v9-latin-600.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web SemiBold'), local('TitilliumWeb-SemiBold'),
+         url('../fonts/titillium-web-v9-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-600.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-regular - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/titillium-web-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'),
+         url('../fonts/titillium-web-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-regular.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-600italic - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../fonts/titillium-web-v9-latin-600italic.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web SemiBold Italic'), local('TitilliumWeb-SemiBoldItalic'),
+         url('../fonts/titillium-web-v9-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-600italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-600italic.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-700italic - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/titillium-web-v9-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Bold Italic'), local('TitilliumWeb-BoldItalic'),
+         url('../fonts/titillium-web-v9-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-700italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-700italic.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+  
+  /* titillium-web-700 - latin */
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/titillium-web-v9-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'),
+         url('../fonts/titillium-web-v9-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/titillium-web-v9-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/titillium-web-v9-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/titillium-web-v9-latin-700.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+  }
+
+  /* Cooper Std Black */
+  @font-face {
+    font-family: 'Cooper Std Black';
+    src: url('Cooper Std Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+ }
+
+    @font-face {
+    font-family: 'Cooper Std Black Italic';
+    src: url('../fonts/Cooper Std Black Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+ }
+
+
+/* Custom properties */
+:root {
+    --primary:#28085d ;
+    --secondary:#17c2C0 ;
+    --secondarydark:#03aeac ;
+    --tertiary:#e7f1f8;
+    --grey: #3c4761;
+    --white: #fff;
+    --peps: #f75910;
+    --h1: #f7f3ea;
+    --hoverheader:#5911d1;
+    --social:#bdd1df;
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media (min-width: 20em) /* small smartphone */ {
+    .container {
+        max-width: 28.8rem;
+    }
+}
+
+@media (min-width: 37.5em)/* smartphone */ {
+    .container {
+        max-width: 54.8rem;
+    }
+}
+
+@media (min-width: 57.5em) /* tablet portrait */{
+    .container {
+        max-width: 74.1rem;
+    }
+}
+
+@media (min-width: 68.75em) /* tablet landscape */{
+    .container {
+        max-width: 96.5rem;
+    }
+}
+
+@media (min-width: 90em) /* desktop */{
+    .container {
+        max-width: 110.7rem;
+    }
+}
+
+section{
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+}
+
+footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* General */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: var(--grey);
+    text-align: center;
+}
+
+.logo {
+	font-size: 4.3rem;
+    font-family: 'Cooper Std Black';
+    font-weight: 900;
+    color:var(--white);
+}
+
+h1,
+.h1-like,
+h2,
+h3 {
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 4.2rem;
+    color:var(--h1);
+    text-align: justify center;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3, .h3-like {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.skills h3{
+    transform: translateY(-4rem);
+}
+
+.menu-item{
+    font-size: 1.6rem;
+}
+
+.menu-item{
+    font-size: 1.6rem;
+}
+
+.btn{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p.baseline{
+    font-size: 1.8rem;
+    margin-bottom: 7.8rem;
+}
+
+p.baseline::before{
+    display: block;
+    content:"";
+    width: 9.2rem;
+    height:  0.7rem;
+    background-color: var(--secondarydark);
+    margin: auto;
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 68.75em) /* tablet landscape */{
+    h2, p.baseline{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+section.team p.baseline::before, section.skills p.baseline::before{
+    background-color: #d9d9d9;
+}
+
+section.portfolio p.baseline::before{
+    background-color: #e5c37f;
+}
+
+p.number{
+    font-size: 5rem;
+    font-weight: 300;
+    display: inline-block;
+    transform: translateY(-12rem);
+}
+
+p.number span{
+    display: none;
+}
+@media (min-width: 90em) /* desktop */{
+    p.number span{
+        display: inline-block;
+    }
+}
+
+p.job{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color:var(--peps);
+}
+
+.portfolio .mockup p{
+    text-transform: uppercase;
+    font-weight: 700;
+    color:var(--grey);
+    margin-top: 3.8rem;
+    margin-bottom: 5.3rem;
+}
+
+.social-item.h3-like a{
+    color:var(--white);
+    font-weight:700;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.social-item.h3-like a:hover{
+    color:var(--peps);
+    transition: .3s;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2rem; /* Place the button at the bottom of the page */
+    right: 3rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: var(--peps); /* Set a background color */
+    color: var(--white); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1.5rem; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 1.4rem; /* Increase font size */
+    text-transform: uppercase;
+  }
+  
+  #myBtn:hover {
+    background-color: var(--hoverheader); /* Add a dark-grey background on hover */
+  }
+
+@media (min-width: 20em) /* small smartphone */ {
+    body, .menu-item{
+        font-size: 1.4rem;
+    }
+    h1{
+        font-size: 3rem;
+        text-align: justify center;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 > span.linemobile{
+        display: inline-block;
+        width: 28.8rem;
+        margin-left:-4rem;
+        margin-right: auto;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+    h3, .h3-like {
+        font-size: 2rem;
+    }
+    .btn{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 37.5em)/* smartphone */ {
+    h1{
+        width: 55rem;
+    }
+    h1 > span.linemobile{
+        display: inline;
+        margin-left:0;
+    }
+}
+
+@media (min-width: 57.5em) /* tablet portrait */{
+    h1{
+        width: 74rem;
+    }
+    h1 > span.linemobile{
+        width: 74rem;
+    }
+}
+
+@media (min-width: 68.75em) /* tablet landscape */{
+    body, .menu-item{
+        font-size: 1.6rem;
+    }
+    h1{
+        font-size: 3.6rem;
+        width: 90%;
+    }
+    h1 > span.linemobile{
+        width: 90%;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3, .h3-like {
+        font-size: 2.2rem;
+    }
+    .btn{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 90em) /* tablet landscape */{
+    h1{
+        font-size: 3.6rem;
+        width: 100%;
+    }
+    h1 > span.linemobile{
+        width: 100%;
+    }
+}
+
+/* Menu & menu burger */
+.menu a {
+    display: block;
+    padding: 2rem .35rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+@media (min-width: 67.5em) /* desktop */{
+    .menu a {
+        margin-top: 0;
+    }
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: var(--primary);
+    color:var(--white);
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-menu {
+	position: relative;
+	z-index: 10001;
+	padding: 1rem 0;
+	border: 0;
+	width: 3rem;
+	height: 2.5rem;
+	background-color: var(--white);
+	background-clip: content-box;
+    transition: .3s;
+}
+
+.toggle-menu::before,
+.toggle-menu::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 0.5rem;
+	background-color: var(--white);
+	transition: .3s;
+	transform-origin: left center;
+}
+
+.toggle-menu::before {
+	top: 0;
+}
+
+.toggle-menu::after {
+	bottom: 0;
+}
+
+.toggle-menu[aria-expanded="true"] {
+	background-color: var(--primary);
+}
+
+.toggle-menu[aria-expanded="true"]::before {
+	transform: rotate(42.5deg);
+}
+
+.toggle-menu[aria-expanded="true"]::after {
+	transform: rotate(-42.5deg);
+}
+
+.menu {
+	/* position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0; */
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary);
+	opacity: 0;
+	pointer-events: none;
+	transition: .3s;
+}
+
+.menu:not([hidden]) {
+	opacity: 1;
+	pointer-events: all;;
+}
+
+@media (min-width: 68.75em) {
+	.toggle-menu {
+		display: none;
+    }
+
+	.menu {
+		position: static;
+		display: flex;
+		flex-direction: row;
+		padding-left: 0;
+		list-style: none;
+		opacity: 1;
+		pointer-events: all;
+	}
+}
+
+.menu-item a {
+	display: block;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+	color: var(--white);
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+	background-color: var(--hoverheader);
+	color: var(--white);
+}
+
+/* Header rendre le menu fixe */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary);
+    z-index:10000;
+}
+
+/* couleurs de chaque section */
+
+section{
+    z-index: 8000;
+}
+section.hero{
+    background-color: var(--primary);
+    min-height: calc(100vh);
+    margin-top: 6.45rem;
+}
+
+section.services{
+    background-color: var(--secondary);
+}
+
+section.team{
+    background-color: var(--tertiary);
+}
+
+section.skills{
+    background-color: var(--white);
+}
+
+section.portfolio{
+    background-color: var(--secondary);
+}
+
+footer{
+    background-color: var(--primary);
+}
+
+section.services, section.portfolio, footer{
+    color:var(--white);
+}
+
+@media (min-width: 35em) {
+    
+}
+
+/* button */
+
+.btn.btn-primary{
+    display: inline-block;
+    color:var(--white);
+    background-color: var(--peps);
+    max-width: 30rem;
+    min-width: 25rem;
+    max-height: 7rem;
+    padding: 2.5rem 3rem;
+    border-radius: 0.5rem;
+    margin-top: 4.6rem;
+    transition: .3s;
+}
+
+.btn.btn-primary:hover{
+    background-color: #5911d1;
+    font-weight: normal;
+    transition: .3s;
+}
+
+.btn.btn-secondary{
+    display: inline-block;
+    color:var(--white);
+    background-color: var(--secondarydark);
+    min-width: 6rem;
+    padding: 1.2rem 1.2rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    transition: .3s;
+}
+
+.btn.btn-secondary:hover{
+    color:var(--grey);
+    background-color: var(--white);
+    font-weight: normal;
+    transition: .3s;
+}
+
+.btn.btn-secondary:not(lastchild){
+    margin-right: 0.5rem;
+}
+
+ul.btn-group{
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 5.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* images */
+
+img{
+    margin: auto;
+}
+
+.coworker img:not(.social){
+    border-radius: 50%;
+    margin-top: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+div.bg-social{
+    background-color: var(--social);
+    border-radius:50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+    margin-top: 1.7rem;
+}
+
+div.bg-social:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+div.bg-social:not(:last-child){
+    margin-right: 1.4rem;
+}
+
+@media (min-width: 68.75em) /* tablet landscape */{
+    div.bg-social:not(:last-child){
+        margin-right: 0.25rem;
+    }
+}
+
+img.social{
+    vertical-align: middle;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feature img{
+    margin-top: 3.4rem;
+    margin-bottom: 5.6rem;
+}
+
+
+
+/* group éléments medias queries qui correspondent pour les modifications*/
+
+@media (min-width: 37.5em)/* smartphone */ {
+    div.group-elements.team, div.group-elements.portfolio, div.group-elements.services, div.group-elements.skills{
+        display: grid;
+        grid-template-columns: repeat(2,20rem);
+        grid-column-gap:8.5rem;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 57.5em) /* tablet portrait */{
+    div.group-elements.team, div.group-elements.portfolio, div.group-elements.services, div.group-elements.skills{
+        grid-template-columns: repeat(2,30rem);
+        grid-column-gap:9rem;
+    }
+}
+
+@media (min-width: 57.5em) /* tablet portrait */{
+    ul.social-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 68.75em) /* tablet landscape */{
+     div.group-elements.portfolio, div.group-elements.skills{
+        grid-template-columns: repeat(2,45rem);
+        grid-column-gap:9rem;
+    }
+    div.group-elements.team, div.group-elements.services{
+        display: flex;
+        justify-content: space-between;
+        width: 96.5rem;
+        margin-left: -3.5rem;
+    }
+    div.group-elements.team article, div.group-elements.services article{
+        width: 18rem;
+    }
+    div.group-elements.team article h3{
+        width: 18rem;
+    }
+
+}
+@media (min-width: 90em) /* desktop */{
+    div.group-elements.portfolio{
+        grid-template-columns: repeat(2,58rem);
+        grid-column-gap:9rem;
+    }
+    div.group-elements.team, div.group-elements.services, div.group-elements.skills{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.group-elements.team, div.group-elements.services{
+        margin-left: 0;
+    }
+}
